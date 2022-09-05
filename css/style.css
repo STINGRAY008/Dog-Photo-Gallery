@@ -14,6 +14,11 @@ body{
     color: #000040;
     border-bottom: 4px solid;
 }
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 .gallery img{
     width: 100%;
     max-width: 350px;
